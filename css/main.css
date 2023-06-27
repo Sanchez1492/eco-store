@@ -67,8 +67,139 @@ article .img-section img {
   border-radius: 5px;
 }
 
+.product-section {
+  width: 100%;
+  background-color: #FFEFE7;
+}
+.product-section h2 {
+  font-size: 2rem;
+  color: #7C6A0A;
+}
+.product-section .healthcare, .product-section .furniture {
+  margin: auto;
+  width: 85%;
+}
+.product-section .healthcare .card-container, .product-section .furniture .card-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.product-section .healthcare .card-container .card, .product-section .furniture .card-container .card {
+  position: relative;
+  width: 250px;
+  height: 400px;
+  background-color: #FFDAC6;
+  border-radius: 10px;
+}
+.product-section .healthcare .card-container .card svg, .product-section .furniture .card-container .card svg {
+  margin: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.product-section .healthcare .card-container .card .product-img, .product-section .furniture .card-container .card .product-img {
+  width: 70%;
+  height: 216px;
+  margin: auto;
+  padding-top: 40px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.product-section .healthcare .card-container .card .product-img img, .product-section .furniture .card-container .card .product-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.product-section .healthcare .card-container .card .product-info, .product-section .furniture .card-container .card .product-info {
+  padding: 10px 20px;
+  color: #7C6A0A;
+}
+.product-section .healthcare .card-container .card .product-info h3, .product-section .furniture .card-container .card .product-info h3 {
+  font-size: 1.2rem;
+}
+.product-section .healthcare .card-container .card .product-info p, .product-section .furniture .card-container .card .product-info p {
+  font-size: 0.8rem;
+}
+.product-section .furniture .card-container .card {
+  background-color: #BABD8D;
+}
+.product-section .furniture .card-container .card .product-info {
+  color: #fff;
+}
+
+.info-section .about-us, .info-section .location, .info-section .gallery {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: auto;
+  background-color: #FFEFE7;
+}
+.info-section .about-us h2, .info-section .location h2, .info-section .gallery h2 {
+  font-size: 2rem;
+  color: #7C6A0A;
+}
+.info-section .about-us .about-us__container, .info-section .location .about-us__container, .info-section .gallery .about-us__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.info-section .about-us .about-us__container .earth, .info-section .location .about-us__container .earth, .info-section .gallery .about-us__container .earth, .info-section .about-us .about-us__container .innovation, .info-section .location .about-us__container .innovation, .info-section .gallery .about-us__container .innovation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #FA9500;
+}
+.info-section .gallery {
+  margin-top: 50px;
+}
+.info-section .gallery .img-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 50px;
+}
+.info-section .gallery .img-container img {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.info-section .location .map {
+  width: 100%;
+}
+.info-section .location .map img {
+  width: 100%;
+}
+.info-section .location .store-name {
+  font-size: 1.2rem;
+  color: #FA9500;
+  font-weight: bold;
+}
+.info-section .location .store-adress {
+  font-size: 1rem;
+  color: #FA9500;
+  margin-top: -5px;
+}
+
 footer {
   background-color: #FA9500;
   width: 100%;
   height: 250px;
+  padding: 25px;
+  color: #fff;
+}
+footer h3 {
+  font-size: 1.2rem;
+}
+footer p {
+  font-size: 1rem;
+}
+footer .media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }/*# sourceMappingURL=main.css.map */
