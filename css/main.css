@@ -23,6 +23,13 @@ nav button {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  height: 50px;
+  border-radius: 50px;
+  stroke: #F8F1F1;
+}
+nav button:hover {
+  background-color: #F8F1F1;
+  stroke: #025464;
 }
 
 article {
@@ -93,10 +100,17 @@ article .img-section img {
   border-radius: 10px;
 }
 .product-section .healthcare .card-container .card svg, .product-section .furniture .card-container .card svg {
+  cursor: pointer;
   margin: 8px;
   position: absolute;
   top: 0;
   right: 0;
+  border-radius: 50%;
+  stroke: #F8F1F1;
+}
+.product-section .healthcare .card-container .card svg:hover, .product-section .furniture .card-container .card svg:hover {
+  background-color: #F8F1F1;
+  stroke: #E57C23;
 }
 .product-section .healthcare .card-container .card .product-img, .product-section .furniture .card-container .card .product-img {
   width: 70%;
@@ -125,6 +139,9 @@ article .img-section img {
 }
 .product-section .furniture .card-container .card .product-info {
   color: #fff;
+}
+.product-section .furniture .card-container .card svg:hover {
+  stroke: #E8AA42;
 }
 
 .info-section .about-us, .info-section .location, .info-section .gallery {
@@ -204,4 +221,13 @@ footer .media-icons {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  cursor: pointer;
+}
+footer .media-icons img {
+  width: 40px;
+  padding: 5px;
+}
+footer .media-icons img:hover {
+  background-color: #E8AA42;
+  border-radius: 3px;
 }/*# sourceMappingURL=main.css.map */
